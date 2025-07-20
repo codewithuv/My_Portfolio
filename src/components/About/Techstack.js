@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -16,20 +15,22 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiSpringboot,
+  SiMysql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { AiFillGithub } from "react-icons/ai";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -50,6 +51,9 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <AiFillGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -59,10 +63,10 @@ function Techstack() {
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiMysql />
       </Col>
     </Row>
   );

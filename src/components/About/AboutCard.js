@@ -3,20 +3,23 @@ import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
+  //  Utkarsh Gupta from the spiritual city of Ayodhya, India — a Computer Science
+  //  engineer in the making, blending logic with creativity, and turning caffeine into clean code. 😎💻
+
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Utkarsh Gupta </span>
-            from <span className="purple">Ayodhya, India.</span>
+            Hi, I'm <span className="purple">Utkarsh Gupta </span>
+            from <span className="purple">the spiritual city of Ayodhya, India</span>
             <br />
-            I am currently doing engineering in computer Science
+             — a Computer Science  engineer in the making,
             <br />
-            I have completed class 10 and 12 from ICSE and ISC board
+             blending logic with creativity, and turning caffeine into clean code. 😎💻
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+              My Hobbies- 
           </p>
           <ul>
             <li className="about-activity">
